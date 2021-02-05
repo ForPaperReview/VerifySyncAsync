@@ -1,0 +1,4 @@
+(declare-const t Int)
+(assert (>= t  7 ) ) 
+ (check-sat) 
+

@@ -1,0 +1,10 @@
+hiphop module prg( out O ) 
+/*@
+  require TRUE /\ emp 
+  ensure TRUE /\ ({O(1)})^*
+@*/
+{
+  emit O(1);
+  yield;
+  emit O(2)
+}
