@@ -6,7 +6,7 @@ HipHop.js is the first reactive language that integrates Esterel’s synchrony a
 ### To Compile:
 
 ```
-git clone https://github.com/songyahui/VerifySyncAsync.git
+git clone https://github.com/ForPaperReview/VerifySyncAsync.git
 cd SyncedEffects
 chmod 755 clean 
 chmod 755 compile 
