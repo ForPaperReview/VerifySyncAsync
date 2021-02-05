@@ -22,13 +22,19 @@ sudo apt-get install menhir
 sudo apt-get install z3
 ```
 
-{A, B , C} /\ {B, C} |- {A}
+### To Test the Front End Forward verifier :
 
-{A} |- {A, B , C} /\ {B, C}
-{A} |- {B} -> false
+```
+./hip src/programs/4_present.hh.js
 
-emp |- 
--------------------------------------------
-{A}  |- {A} || O  and O  |- {A} || O
------------------------------
-{A} || O  |- {A} || O  true  
+```
+more example can be find in folder src/programs/
+
+
+### To Test the Back End Term Rewriting System :
+
+```
+./sleek src/effects/Mixed_1.ee
+```
+more example can be find in folder src/effects/
+
